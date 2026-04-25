@@ -15,7 +15,7 @@ __pycache__/
 .pytest_cache/
 
 # Dependencies
-venv/
+.venv/
 
 # Credentials
 *.env
