@@ -1,5 +1,6 @@
 [build-system]
-requires = ["setuptools>=64"]
+requires = ["setuptools>=64",
+            "annotated_types"]
 build-backend = "setuptools.build_meta"
 
 [project]
