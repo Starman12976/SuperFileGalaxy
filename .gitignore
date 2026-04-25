@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.exe
+*.ilk
+*.o
+*.obj
+*.out
+*.pdb
+*.pyc
+*.suo
+__pycache__/
+.pytest_cache/
+
+# Dependencies
+venv/
+
+# Credentials
+*.env
+
+# Editor files
+.idea/
+.vscode/
+
+# Log files
+*.log
