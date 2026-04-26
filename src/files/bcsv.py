@@ -39,6 +39,14 @@ class BCSVHeader:
         self.data_section_offset = read_uint32(file, _byteorder)
         self.entry_size = read_uint32(file, _byteorder)
 
+    def write(self: "BCSVHeader", file: BinaryIO) -> None:
+        """Write BCSV file data from this class.
+
+        Args:
+            file: The file to write to, opened in binary mode.
+        """
+
+
 class BCSV:
     """Represents the BCSV file format as a class with i/o operations.
     """
