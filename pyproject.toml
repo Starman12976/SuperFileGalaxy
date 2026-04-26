@@ -1,6 +1,7 @@
 [build-system]
 requires = ["setuptools>=64",
-            "annotated_types"]
+            "annotated_types",
+            "pytest"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -9,3 +10,8 @@ version = "0.1.0"
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = ["-ra", "--strict-markers", "--tb=short"]

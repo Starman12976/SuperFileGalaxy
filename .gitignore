@@ -17,6 +17,9 @@ __pycache__/
 # Dependencies
 .venv/
 *.egg-info
+tests/testdata/**/*
+!tests/testdata/**/
+!tests/testdata/**/.gitkeep
 
 # Credentials
 *.env
